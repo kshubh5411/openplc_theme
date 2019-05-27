@@ -28,3 +28,7 @@ ol, ul {
 #openplc_nav{
     margin-bottom: 0px;
 }
+/* FLex Slider Nav Next Prev Button */
+.flexslider .flex-direction-nav a {
+    display: none;
+    }

@@ -9,3 +9,15 @@ libraries:
    - openplc/fontawesome
    - openplc/image
 
+regions:
+   header: 'Header'
+   content: 'Content'
+   sidebar_second: 'Left sidebar'
+   sidebar_first: 'Right sidebar'
+   primary_menu: 'Primary menu'
+   secondary_menu: 'Secondary menu'
+   footer: 'Footer'
+   highlighted: 'Highlighted'
+   help: 'Help'
+   breadcrumb: 'Breadcrumb'
+   openplc_corousal: 'OpenPLC Corousal'

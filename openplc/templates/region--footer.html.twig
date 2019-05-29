@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+
+  <div{{ attributes }}>
+        <footer role="contentinfo" style="background:#140f0f;height:135px; margin-top:90px;">
+                <div class="container" style="text-align:center;padding-top: 30px;color: blanchedalmond;">
+                        <p >
+                           This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+                        </p>
+                       <a href='https://creativecommons.org/licenses/by-sa/4.0/'/><img src="{{ directory }}/image/footer_license.png" ></a>
+                </div>
+             </footer>
+  </div>

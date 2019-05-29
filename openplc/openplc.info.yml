@@ -21,3 +21,4 @@ regions:
    help: 'Help'
    breadcrumb: 'Breadcrumb'
    openplc_corousal: 'OpenPLC Corousal'
+   banner: 'Banner'

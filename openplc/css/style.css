@@ -4,3 +4,19 @@
 .fas fa-backward{
     padding-top: 62px;
    }
+
+
+/* Styling Link for menu--resources.html.twig */
+
+.menu_link a{
+    color: azure;
+    text-decoration: none !important;
+
+}
+.menu_link  a:hover {
+    color: #fff;
+}
+#block-download-menu{
+    background: #086821;
+    color:white;
+}

@@ -13,13 +13,28 @@
  */
 #}
 
-  <div{{ attributes }}>
-        <footer role="contentinfo" style="background:#140f0f;height:135px; margin-top:90px;">
-                <div class="container" style="text-align:center;padding-top: 30px;color: blanchedalmond;">
-                        <p >
-                           This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
-                        </p>
-                       <a href='https://creativecommons.org/licenses/by-sa/4.0/'/><img src="{{ directory }}/image/footer_license.png" ></a>
-                </div>
-             </footer>
-  </div>
+   <div id="footer" style="background: black;margin-top:100px;">
+       <div class="container">
+           <div class="row" style="margin-top:5px;">
+                 <div class="col-md-4">
+                   <center>
+                    <a href="https://fossee.in"><img style=" width:150px;background: #fff;"src="{{ directory }}/image/fossee-logo.png"/><a/>
+                   </center>
+                 </div>
+                 <div class="col-md-4">
+                   <center>
+                        <a href="https://www.iitb.ac.in/"><img style="width: 80px;height: 80px;" src="{{ directory }}/image/iitb-logo.png"/><a/>
+                   </center>
+                 </div>
+                 <div class="col-md-4">
+                   <center>
+                        <a href="http://www.sakshat.ac.in/"><img style="width: 150px;background: #fff;height: 55px;"src="{{ directory }}/image/NMEICT.png"/></a>
+                   </center>
+                 </div>
+               </div>
+               <div class="row">
+                  <p><center><p style="color:#fff">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License</p></center></p>
+                  <center><a href='https://creativecommons.org/licenses/by-sa/4.0/'/><img src="{{ directory }}/image/footer_license.png" ></a></center>
+               </div>
+       </div>
+   </div>
